@@ -1,0 +1,71 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav .navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 1100px;
+    margin: 20px auto;
+    padding: 30px;
+    background: #1c2938;
+    border-radius: 5px;
+}
+
+nav .navbar .MagazineName {
+    font-size: 24px;
+    color: white;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav .navbar .basket_shop {
+    position: relative;
+    cursor: pointer;
+}
+
+nav .navbar .basket_shop i {
+    color: white;
+    font-size: 24px;
+}
+
+nav .navbar .basket_shop .badge {
+    position: absolute;
+    top: 0px;
+    left: 30px;
+}
+
+main .allFruits {
+    width: 1100px;
+    border-radius: 15px;
+    margin: auto;
+    text-align: center;
+}
+
+main .allFruits .fruit {
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+main .allFruits .fruit .card-body .add-basket {
+    cursor: pointer;
+}
+
+main .allFruits .fruit:hover {
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+
+/*# sourceMappingURL=style.css.map */
